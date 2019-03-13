@@ -23,6 +23,8 @@ module.exports = {
   rules: {
     // allow async-await
     'generator-star-spacing': 'off',
+    "no-undef": "off", //不能有未定义的变量
+    "no-unused-vars":"off",//不能有未使用的变量
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
   }
